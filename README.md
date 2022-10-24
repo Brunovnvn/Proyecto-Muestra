@@ -27,8 +27,8 @@ Información de microcontrolador:
     - 
   Pines sensor:
     - 
-  Pines bocina:
-    - 
+  Pin bocina:
+    - 15
   
   
 Alimentación de placa:
