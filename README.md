@@ -15,19 +15,26 @@ Permite el control de:
   - Sensor instalado
   - Conexion y desconexion de modulo BLE
 
-Información de microcontrolador:
-  Pines PWM (Velocidad de ambos motores):
+INFORMACIÓN DE MICROCONTROLADOR:
+
+  Pines PWM (VELOCIDAD de ambos motores):
     - 4 (Motor 1 - Izq) y 5 (Motor 2 - Der)
-  Pines PWM (Direccion de ambos motores):
+    
+  Pines PWM (DIRECCIÓN de ambos motores):
     - 9 (Motor 1 - Izq) y 10 (Motor 2 - Der)
+    
   Pines UART0 (BLE):
     - 1 y 2
+    
   Pines control de luces:
     - 
-  Pines sensor:
+    
+  Pines control de sensor:
     - 
+    
   Pin bocina:
     - 15
+    
   
   
 Alimentación de placa:
@@ -45,5 +52,4 @@ Precauciones: !!!!!!!
   - Autoiuducción de relé / Solución: Diodo
   - En cada cambio de direccion, 
   apagar PWM por unos milisegundos 
-  para no producir un arco
-      
+  para no producir un arco  
