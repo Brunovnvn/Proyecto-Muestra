@@ -18,24 +18,24 @@ Permite el control de:
 INFORMACIÓN DE MICROCONTROLADOR:
 
   Pines PWM (VELOCIDAD de ambos motores):
-    - 4 (Motor 1 - Izq) y 5 (Motor 2 - Der)
+    - 4 (GP2) (Motor 1 - Izq) y 5 (GP3)(Motor 2 - Der)
     
   Pines PWM (DIRECCIÓN de ambos motores):
-    - 9 (Motor 1 - Izq) y 10 (Motor 2 - Der)
+    - 9 (GP6) (Motor 1 - Izq) y 10 (GP7) (Motor 2 - Der)
     
-  Pines UART0 (BLE):
-    - 1 y 2
+  Pines BLE (UART0):
+    - 1 (UART0 TX) y 2 (UART0 RX)
     
   Pines control de luces:
-    - 
-    
-  Pines control de sensor:
-    - 
-    
-  Pin bocina:
-    - 15
-    
+    - 12 (GP9) y 14 (GP10)
   
+  Pin bocina:
+    - 15 (GP11)
+
+  Pines control de sensor:
+    - 16 (GP12) y 17 (GP13)
+    
+        
   
 Alimentación de placa:
   - 5V
