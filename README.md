@@ -24,7 +24,7 @@ INFORMACIÓN DE MICROCONTROLADOR:
     - 1 (UART0 TX) y 2 (UART0 RX)
   
   Pines PWM (VELOCIDAD de ambos motores):
-    - 4 (GP2) (Motor 1 / Izq) y 5 (GP3) (Motor 2 / Der)
+    - 21 (GP16) (Motor 1 / Izq) y 5 (GP3) (Motor 2 / Der)
     
   Pines PWM (DIRECCIÓN de ambos motores):
     - 9 (GP6) (Motor 1 / Izq) y 10 (GP7) (Motor 2 / Der)
@@ -41,9 +41,11 @@ INFORMACIÓN DE MICROCONTROLADOR:
     
 Alimentación de placa:
 
-  - 5V 
+  - 5V (VSYS) (pin 39)
+  - GND (pin 38)
   - Cables naranja / albinaranja (Positivo +)
   - Cables azul / marrón (Negativo -)
+  
 
 Posicionamiento dentro de la placa: 
 
