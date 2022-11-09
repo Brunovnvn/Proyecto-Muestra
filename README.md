@@ -24,7 +24,7 @@ INFORMACIÓN DE MICROCONTROLADOR:
     - 1 (UART0 TX) y 2 (UART0 RX)
   
   Pines PWM (VELOCIDAD de ambos motores):
-    - 21 (GP16) (Motor 1 / Izq) y 5 (GP3) (Motor 2 / Der)
+    - 21 (GP16) (Motor 1 / Izq) y 20 (GP15) (Motor 2 / Der)
     
   Pines PWM (DIRECCIÓN de ambos motores):
     - 9 (GP6) (Motor 1 / Izq) y 10 (GP7) (Motor 2 / Der)
@@ -34,9 +34,6 @@ INFORMACIÓN DE MICROCONTROLADOR:
   
   Pin bocina:
     - 15 (GP11)
-
-  Pines control de sensor:
-    - 16 (GP12) y 17 (GP13)
     
     
 Alimentación de placa:
@@ -50,6 +47,8 @@ Alimentación de placa:
 Posicionamiento dentro de la placa: 
 
   - Pi-Pico Pin entre: (18;C) y (25;V)
+  - Modulo BLE entre: (10;E) y (15;E)
+  - Buzzer entre: (23;B2) y (23;E2)
   - Transistor (1) BC337 entre: (06;O / 08;O) - Transistor (2) BC337 entre: (28;O / 30;O)
   - Transistor IRF530N (1) entre: (04;A2 / 06;A2) - Transistor IRF530N (2) entre: (31;A2 / 33;A2) 
   - Relé MR62-N3 (1) entre: (03;Q / 06;X) - Relé MR62-N3 (2) entre: (30;Q / 33;X) 
